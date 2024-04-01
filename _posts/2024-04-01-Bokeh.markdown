@@ -5,7 +5,7 @@ categories: CATEGORY-1 CATEGORY-2
 
 <embed 
        type="text/html" 
-       src="/Assignment2_bokeh.html"
+       src="/bokeh_assignment2.html"
        width="1100"
        height="600"
        >
