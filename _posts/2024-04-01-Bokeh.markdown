@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Bokeh plot"
+title:  "Bokeh"
 date: 2024-04-01 16:15:00 +0100
-categories: Bokeh
+categories: Bokeh plot
 ---
 
 <embed 
