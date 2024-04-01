@@ -2,7 +2,7 @@
 layout: post
 title:  "Bokeh"
 date: 2024-04-01 16:15:00 -0000
-categories: Bokeh plot
+categories: jekyll update
 ---
 
 <embed 
