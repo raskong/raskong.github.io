@@ -4,7 +4,7 @@ title:  "Bokeh plot"
 date: 2024-04-01 16:15:00 +0100
 categories: Bokeh
 ---
-A bokeh plot for all focuscrimes from 2003 to 2017:
+
 <embed 
        type="text/html" 
        src="/bokeh_assignment2.html"
