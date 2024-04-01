@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Bokehplot"
+title:  "Bokeh plot"
 date: 2024-04-01 16:15:00 +0100
 categories: Bokeh update
 ---
