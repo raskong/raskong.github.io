@@ -23,7 +23,7 @@ email: s193984@student.dtu.dk
 description: >- # this means to ignore newlines until "baseurl:"
  This page is the assignment 2 of the course 02806 Social data analysis and visualization.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://raskong.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  raskong
 
 # Build settings

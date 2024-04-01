@@ -1,0 +1,12 @@
+layout: post
+title: "Bokeh"
+date: 2024-04-01 16:15:00 -0000
+categories: CATEGORY-1 CATEGORY-2
+
+<embed 
+       type="text/html" 
+       src="/Assignment2_bokeh.html"
+       width="1100"
+       height="600"
+       >
+</embed>
