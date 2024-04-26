@@ -7,8 +7,8 @@ from folium.plugins import HeatMap
 df = pd.read_csv('Motor_Vehicle_Collisions_-_Crashes_20240409.csv')
 
 #Dropping NaN for location:
-df = df.dropna(subset=['LOCATION'])
-df = df.reset_index(drop=True)
+#df = df.dropna(subset=['LOCATION'])
+#df = df.reset_index(drop=True)
 
 #Drpping latitude and longitude as they are the same as location:
 #df = df.drop(['LATITUDE', 'LONGITUDE'], axis=1)
