@@ -229,7 +229,7 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/bokeh_weekday.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/bokeh_weekday.html')
 show(p) #displays your plot
 
 
