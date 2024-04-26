@@ -3,6 +3,7 @@ from bokeh.plotting import *
 from bokeh.models import *
 from bokeh.io import output_file, show
 import seaborn as sns
+import matplotlib.pyplot as plt
 
 from Data_preparation import *
 
@@ -24,6 +25,7 @@ plt.xlabel('Focus factor')
 plt.xticks(rotation = 90)
 plt.ylabel('Count')
 
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/factor_counts.png')
 # Show the plot
 plt.show()
 
@@ -52,7 +54,7 @@ for i, crash in enumerate(year_factors.columns):
 fig.text(0.5, -0.01, 'Years', size=12, ha='center')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per year.png')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/crashfactors per year.png')
 plt.show()
 
 
@@ -82,7 +84,7 @@ for i, crash in enumerate(weekday_factors.columns):
 fig.text(0.5, -0.01, 'Weekdays', size=12, ha='center')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per weekday.png')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/crashfactors per weekday.png')
 plt.show()
 
 
@@ -94,7 +96,7 @@ month_factors = df.groupby(['MONTH', 'CONTRIBUTING FACTOR VEHICLE 1']).size().un
 
 import calendar
 
-num_rows = 8
+num_rows = 5
 num_cols = 3
 fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
 
@@ -114,7 +116,7 @@ for i, crime in enumerate(month_factors.columns):
 fig.text(0.5, -0.01, 'Months', size=12, ha='center')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per month.png')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/crashfactors per month.png')
 plt.show()
 
 #%%Barplot per hour of day per focus factor
@@ -122,7 +124,7 @@ df['CRASH TIME'] = pd.to_datetime(df['CRASH TIME'], format='%H:%M')
 df['CRASH HOUR'] = df['CRASH TIME'].dt.hour
 hour_factors = df.groupby(['CRASH HOUR', 'CONTRIBUTING FACTOR VEHICLE 1']).size().unstack()
 
-num_rows = 8
+num_rows = 5
 num_cols = 3
 fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
 
@@ -139,7 +141,7 @@ for i, crime in enumerate(hour_factors.columns):
 fig.text(0.5, -0.01, 'Hours of the day', size=12, ha='center')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per hour.png')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/crashfactors per hour.png')
 plt.show()
 
 #%% Barplot per weekday
@@ -149,12 +151,12 @@ plt.figure(figsize=(10, 6))  # Adjust the figure size if needed
 # Create bar chart
 plt.bar(per_week.index, per_week.values, color='skyblue')
 
-plt.xlabel('Year')
+plt.xlabel('Weekday')
 plt.ylabel('Count')
 plt.title('Crashes per year')
-plt.xticks(week_order)
+#plt.xticks(week_order)
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per weekday.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/crashfactors per weekday.png', bbox_inches='tight')
 
 plt.show()
 
@@ -167,7 +169,7 @@ plt.ylabel('Count')
 plt.title('Crashes per weekdays')
 plt.xticks(per_week.index)
 
-plt.savefig('\Databehandling\Crashes_per_year.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures\Crashes_per_week.png', bbox_inches='tight')
 
 plt.show()
 
@@ -199,20 +201,23 @@ normalized_crimes = weekday_factors.div(weekday_factors.sum(axis=0), axis=1)
 normalized_crimes.index = normalized_crimes.index.astype(str)
 
 output_notebook()
-#df_bokeh = ColumnDataSource(normalized_crimes)
-df_bokeh = ColumnDataSource(weekday_factors)
+df_bokeh = ColumnDataSource(normalized_crimes)
+#df_bokeh = ColumnDataSource(weekday_factors)
 
 weekdays = [str(i) for i in range(7)]
 colors = sns.color_palette("husl", len(focus_factors))
 colors = ['#%02x%02x%02x' % (int(r * 255), int(g * 255), int(b * 255)) for r, g, b in colors]
 
-p = figure(x_range = FactorRange(factors=weekdays), title="Crimes per weekday (Normalized values)", x_axis_label='Weekday', y_axis_label='Crashes', height=400, width=1000) 
+p = figure(x_range = FactorRange(factors=weekdays), title="Crimes per weekday (Normalized values)", x_axis_label='Weekday', y_axis_label='Crashes', height=400, width=700) 
+#p.xaxis.ticker = range(len(week_order))
+#p.xaxis.major_label_overrides = {i: name for i, name in enumerate(week_order)}
+
 k = 0
 
 bar ={}
 items = []
 for indx,i in enumerate(focus_factors):
-    bar[i] = p.vbar(x='WEEKDAY',  top=i, source = df_bokeh, width=0.7,
+    bar[i] = p.vbar(x='WEEKDAY',  top=i, source = df_bokeh, width=0.6,
                       muted_alpha=0.05, muted = True, fill_color = colors[indx])
 
      ### for the custom legend // you need to figure out where to add it
@@ -224,7 +229,7 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_weekday.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/bokeh_weekday.html')
 show(p) #displays your plot
 
 
