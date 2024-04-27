@@ -125,9 +125,9 @@ navigation_header:
   url: /
 - title: Data overview
   url: /overview/
-- title: Contributing factor
+- title: Contributing Factor
   url: /contributing_factor/
-- title: Vehicle type
+- title: Vehicle Type
   url: /vehicle_type/
 - title: Search
   url: /search/
