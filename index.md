@@ -14,28 +14,13 @@ This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. 
 It contains over 2 million data points with 29 different attributes covering date, time and location (both coordinates, streetname and cross street name).
 Also number of people (drivers, pedestrians, cyclists) injuerd or killed as well as the contributing factor for the crash and the vehicle types involved are included.
 
-To make it easy for you to navigate through the data we have divided the analysis in two focus areas: the contributing factors for the crashes and the vehicle type involved in the crash.
-
-On the front page we will introduce the data briefly to present an overview of tendencies within the data.
-
-If you want to dive deeper into it you can navigate to the panes concerning either contributing factors or vehicle type.
+To make it easy for you to navigate through the data we have divided the analysis in three sub groups. 
+Firstly a more general data overview as well as two focus areas: the contributing factors for the crashes and the vehicle types involved in the crash.
 
 Different types of plots will make the story eaiser for you to navigate in the content.
 
-# Data overview
+Please see the panes in the top to navigate through the different sections.
 
-## Contributing factors
-Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors), that this page will mostly concern. These are all bases on vehicle number 1, as there is always at least one vehicle:
-
-<iframe src="/Final_Project/Figures/bokeh_year_factors.html" width="800" height="400"></iframe>
-Figure 1: Bokeh plot for focus factors for vehicle 1 per year from 2013 to 2023.
-
-Put in some interesting comments
-
-<iframe src="/Final_Project/Figures/bokeh_weekday_factors.html" width="800" height="400"></iframe>
-Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
-
-Put in some interesting comments
 
 
 

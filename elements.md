@@ -1,11 +1,36 @@
 ---
-title: Focus area 1
+title: Data overview
 feature_text: |
   A demo of Markdown and HTML includes
 feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "A demo of Markdown and HTML includes"
 aside: False
 ---
+
+
+# Data overview
+A significant drop can be seen in 2020, which is interesting. BLA...BLA...
+<iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="400"></iframe>
+
+## Contributing factors
+Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors), that this page will mostly concern. These are all bases on vehicle number 1, as there is always at least one vehicle:
+
+<iframe src="/Final_Project/Figures/bokeh_year_factors.html" width="800" height="400"></iframe>
+Figure 1: Bokeh plot for focus factors for vehicle 1 per year from 2013 to 2023.
+
+Put in some interesting comments
+
+<iframe src="/Final_Project/Figures/bokeh_weekday_factors.html" width="800" height="400"></iframe>
+Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
+
+Put in some interesting comments
+
+
+
+## Vehicle type
+
+Some bokeh plots
+
 
 # Heading 1
 
