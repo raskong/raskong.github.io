@@ -29,7 +29,7 @@ plt.show()
 
 
 
-#%% Barplot of crash types per year for vehicle 1:
+#%% Barplot of crash types year for vehicle 1:
 year_factors = df.groupby(['YEAR', 'CONTRIBUTING FACTOR VEHICLE 1']).size().unstack()
 
 plt.figure(figsize=(8, 6))  # Adjust the figure size if needed
@@ -177,7 +177,7 @@ plt.show()
 #%% Bar plot per year
 per_year = df['YEAR'].value_counts().sort_index()
 
-plt.figure(figsize=(10, 6))  # Adjust the figure size if needed
+plt.figure(figsize=(8, 5))  # Adjust the figure size if needed
 
 # Create bar chart
 plt.bar(per_year.index, per_year.values, color='skyblue')
@@ -199,14 +199,14 @@ normalized_crimes = weekday_factors.div(weekday_factors.sum(axis=0), axis=1)
 normalized_crimes.index = normalized_crimes.index.astype(str)
 
 output_notebook()
-#df_bokeh = ColumnDataSource(normalized_crimes)
-df_bokeh = ColumnDataSource(weekday_factors)
+df_bokeh = ColumnDataSource(normalized_crimes)
+#df_bokeh = ColumnDataSource(weekday_factors)
 
 weekdays = [str(i) for i in range(7)]
 colors = sns.color_palette("husl", len(focus_factors))
 colors = ['#%02x%02x%02x' % (int(r * 255), int(g * 255), int(b * 255)) for r, g, b in colors]
 
-p = figure(x_range = FactorRange(factors=weekdays), title="Crimes per weekday (Normalized values)", x_axis_label='Weekday', y_axis_label='Crashes', height=400, width=1000) 
+p = figure(x_range = FactorRange(factors=weekdays), title="Crashes per weekday - 2013 to 2023 (Normalized values)", x_axis_label='Weekday', y_axis_label='Crashes (Normalized)', height=400, width=700) 
 k = 0
 
 bar ={}
@@ -224,7 +224,7 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_weekday.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_weekday_factors.html')
 show(p) #displays your plot
 
 
@@ -242,7 +242,7 @@ years = [str(2013 + i) for i in range(11)]
 colors = sns.color_palette("husl", len(focus_factors))
 colors = ['#%02x%02x%02x' % (int(r * 255), int(g * 255), int(b * 255)) for r, g, b in colors]
 
-p = figure(x_range = FactorRange(factors=years), title="Crashes per year", x_axis_label='Year', y_axis_label='Crashes', height=400, width=700) 
+p = figure(x_range = FactorRange(factors=years), title="Crashes per year - 2013 to 2023 (Normalized values)", x_axis_label='Year', y_axis_label='Crashes (Normalized)', height=400, width=700) 
 k = 0
 
 bar ={}
@@ -260,7 +260,7 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year_factors.html')
 show(p) #displays your plot
 
 

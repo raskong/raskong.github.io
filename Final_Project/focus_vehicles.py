@@ -25,7 +25,7 @@ df['VEHICLE TYPE CODE 1'].value_counts().head(13)
 
 
 #%%One-out-of-K coding for vehicle type:
-classLabels = df.[:, -1]
+classLabels = df[:, -1]
 classNames = np.unique(classLabels)
 classDict = dict(zip(classNames, range(len(classNames))))
 origin = np.array([classDict[cl] for cl in classLabels])
