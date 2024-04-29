@@ -8,7 +8,7 @@ aside: False
 ---
 
 A significant drop can be seen in 2020, which is interesting. BLA...BLA...
-<iframe src="/Final_Project/Figures/fatalmap.png" width="800" height="500"></iframe>
+<iframe src="/Final_Project/Figures/fatalmap.html" width="800" height="500"></iframe>
 
 ### Contributing factors
 Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors), that this page will mostly concern. These are all bases on vehicle number 1, as there is always at least one vehicle:
