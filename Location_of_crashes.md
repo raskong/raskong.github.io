@@ -15,10 +15,14 @@ This may be due to.....
 
 ### Specific roads
 Another interesting factor for car accidents is the rest roads they take place on. On plot X, you can see the 10 roads where accidents most often occur.
+
+<figure>
 <iframe src="/Final_Project/Figures/streetswithcrashes.png" width="800" height="500"></iframe>
+<figcaption>Figure 1: Top 10 roads with the most frequent car accidents in New York.</figcaption>
+<figure>
 Here it can be seen how there is an immediate connection with the fact that it is New York's largest and longest roads, such as Broadway, which appear most frequently in reports of car accidents. 
 This is to be expected as more accidents will likely occur on a longer road.
-{% include figure.html image="https://picsum.photos/600/800?image=894" caption="Image with caption" width="300" height="800" %}
+
 
 
 ### Heatmap
