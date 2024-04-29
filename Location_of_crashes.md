@@ -9,6 +9,8 @@ aside: False
 Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that this structure could be to blame for the factors. 
 On Figure X, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
 <iframe src="/Final_Project/Figures/crashesmap.html" caption="Figure 3: Heatmap of stationcar crashes where people died" width="850" height="600"></iframe>
+Figure 1: JJKSJ
+ 
 A relatively even distribution is seen here, with the exception of postal code 11236 and an increased concentration around Manhattan and the transition to Queens. 
 This may be due to.....
 
@@ -16,10 +18,9 @@ This may be due to.....
 ### Specific roads
 Another interesting factor for car accidents is the rest roads they take place on. On plot X, you can see the 10 roads where accidents most often occur.
 
-<figure>
 <iframe src="/Final_Project/Figures/streetswithcrashes.png" width="800" height="500"></iframe>
-<figcaption>Figure 1: Top 10 roads with the most frequent car accidents in New York.</figcaption>
-<figure>
+Figure 2: Roads
+
 Here it can be seen how there is an immediate connection with the fact that it is New York's largest and longest roads, such as Broadway, which appear most frequently in reports of car accidents. 
 This is to be expected as more accidents will likely occur on a longer road.
 
@@ -27,7 +28,9 @@ This is to be expected as more accidents will likely occur on a longer road.
 
 ### Heatmap
 
-<iframe src="/Final_Project/Figures/heatmaptest.html" width="1000" height="950"></iframe>
+<iframe src="/Final_Project/Figures/heatmaptest.html" width="1000" height="1000"></iframe>
+Figure 3: hjsh
+
 
 # Heading 1
 
