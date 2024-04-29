@@ -1,27 +1,23 @@
 ---
-title: Data overview
+title: The location of car crashes
 feature_text: |
   A demo of Markdown and HTML includes
 feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "A demo of Markdown and HTML includes"
 aside: False
 ---
-
-A significant drop can be seen in 2020, which is interesting. BLA...BLA...
+Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that this structure could be to blame for the factors. 
+On Figure X, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
 <iframe src="/Final_Project/Figures/fatalmap.html" width="800" height="500"></iframe>
+A relatively even distribution is seen here, with the exception of postal code 11236 and an increased concentration around Manhattan and the transition to Queens. 
+This may be due to.....
 
-### Contributing factors
-Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors), that this page will mostly concern. These are all bases on vehicle number 1, as there is always at least one vehicle:
 
-<iframe src="/Final_Project/Figures/bokeh_year_factors.html" width="800" height="400"></iframe>
-Figure 1: Bokeh plot for focus factors for vehicle 1 per year from 2013 to 2023.
-
-Put in some interesting comments
-
-<iframe src="/Final_Project/Figures/bokeh_weekday_factors.html" width="800" height="400"></iframe>
-Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
-
-Put in some interesting comments
+### Specific roads
+Another interesting factor for car accidents is the rest roads they take place on. On plot X, you can see the 10 roads where accidents most often occur.
+<iframe src="/Final_Project/Figures/streetswithcrashes.png" width="800" height="400"></iframe>
+Here it can be seen how there is an immediate connection with the fact that it is New York's largest and longest roads, such as Broadway, which appear most frequently in reports of car accidents. 
+This is to be expected as more accidents will likely occur on a longer road.
 
 
 
