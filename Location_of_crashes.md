@@ -8,7 +8,7 @@ aside: False
 ---
 Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that this structure could be to blame for the factors. 
 On Figure X, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
-<iframe src="/Final_Project/Figures/fatalmap.html" width="1100" height="1000"></iframe>
+<iframe src="/Final_Project/Figures/fatalmap.html" width="800" height="500"></iframe>
 A relatively even distribution is seen here, with the exception of postal code 11236 and an increased concentration around Manhattan and the transition to Queens. 
 This may be due to.....
 
