@@ -21,10 +21,10 @@ This is to be expected as more accidents will likely occur on a longer road.
 
 
 
-### Vehicle type
+### Heatmap
 
-Some bokeh plots
-
+<iframe src="/Final_Project/Figures/heatmap_NYC.html" width="800" height="400"></iframe>
+<iframe src="/Final_Project/Figures/heatmaptest.html" width="800" height="400"></iframe>
 
 # Heading 1
 
