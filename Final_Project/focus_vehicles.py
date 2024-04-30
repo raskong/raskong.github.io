@@ -8,15 +8,17 @@ focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(20).index
 counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(20)
 
 
+plt.figure(figsize=(10, 6))
 plt.bar(counts_vehicle.index, counts_vehicle)
 #plt.yscale('log')
 
+
 # Label the axes
-plt.xlabel('Focus factor')
+plt.xlabel('Vehicle type')
 plt.xticks(rotation = 90)
 plt.ylabel('Count')
-
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/cartype_counts.png')
+plt.title('Counts of crashes per vehicle type 1')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/cartype_counts.png', bbox_inches='tight')
 # Show the plot
 plt.show()
 
@@ -38,7 +40,7 @@ origin_encoding[np.arange(origin.size), origin] = 1
 df = df[df['VEHICLE TYPE CODE 1'].isin(focus_vehicles)]
 weekday_vehicles = df.groupby(['WEEKDAY', 'VEHICLE TYPE CODE 1']).size().unstack()
 
-#%%Bokeh per week
+#%%Bokeh per week norm
 normalized_crashes = weekday_vehicles.div(weekday_vehicles.sum(axis=0), axis=1)
 normalized_crashes.index = normalized_crashes.index.astype(str)
 
@@ -68,7 +70,7 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_weekday_vehicles.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_weekday_vehicles_norm.html')
 show(p) #displays your plot
 
 
@@ -112,4 +114,4 @@ p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''
 output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year_factors.html')
 show(p) #displays your plot
 
-# %%
+
