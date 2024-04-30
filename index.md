@@ -3,7 +3,7 @@ title: Introduction
 feature_text: |
   ## Car crases in NYC
   An analysis of how, when and where crashes appear the most
-feature_image: "https://vastphotos.com/files/uploads/photos/10401/high-resolution-new-york-city-skyline-l.jpg?v=20220712073521"
+feature_image: "https://zachfox.photography/static/21c758af2212588d177a9dfdf35e15e3/f8e01/2022-09-14%2019-28-58%20Blue%20IMG_7056%2001.webp"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
