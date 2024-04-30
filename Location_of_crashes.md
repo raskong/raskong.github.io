@@ -1,10 +1,10 @@
 ---
-title: The location of car crashes
+title: Location of crashes
 feature_text: |
-  ## <span class="white-text">A demo of Markdown and HTML includes</span>
-feature_image: "https://www.bigbustours.com/en/new-york/things-to-do-in-new-york-at-night"
-excerpt: "A demo of Markdown and HTML includes"
-aside: false
+  # <span class="white-text">Location of crashes</span>
+  ## <span class="white-text">Analysis of where in NYC most crashes happens</span>
+feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
+excerpt: "Where is this written????"
 ---
 
 <style>
@@ -12,6 +12,8 @@ aside: false
     color: white;
   }
 </style>
+
+{{ page.feature_text | markdownify }}
 
 
 

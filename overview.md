@@ -2,7 +2,7 @@
 title: Data Overview
 feature_text: |
   # <span class="white-text">Data Overview</span>
-  ##<span class="white-text">Basic stats</span>
+  ## <span class="white-text">Basic stats</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
