@@ -23,10 +23,10 @@ excerpt: "Where is this written????"
 https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg
 
 
-Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that this structure could be to blame for the factors. 
-On Figure X, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
-<iframe src="/Final_Project/Figures/crashesmap.html" caption="Figure 3: Heatmap of stationcar crashes where people died" width="850" height="600"></iframe>
-Figure 1: JJKSJ
+Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that the structure of the roads and architechture of the city could be to blame for the factors. 
+On Figure 1, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
+<iframe src="/Final_Project/Figures/crashesmap.html" caption="Figure 3: Heatmap of stationcar crashes where people died" width="850" height="550"></iframe>
+Figure 1: Map of NYC's postal codes and indication of number of crashes between 2013 and 2023
  
 A relatively even distribution is seen here, with the exception of postal code 11236 and an increased concentration around Manhattan and the transition to Queens. 
 This may be due to.....
