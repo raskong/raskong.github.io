@@ -11,4 +11,4 @@ aside: false
 
 {% include figure.html image="https://picsum.photos/600/800?image=894" caption="Left aligned image" position="left" width="300" height="800" %}
 
-<iframe src="/assets/Vehicle type.png" width="800" height="500"></iframe>
+<iframe src="/Final_Project/Figures/cartype_counts.png" width="800" height="500"></iframe>

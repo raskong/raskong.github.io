@@ -2,7 +2,7 @@
 title: Data Overview
 feature_text: |
   # <span class="white-text">Data Overview</span>
-  ##<span class="white-text">Basic stats</span>
+  ## <span class="white-text">Basic stats</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
@@ -41,6 +41,14 @@ Put in some interesting comments
 
 <iframe src="/Final_Project/Figures/bokeh_weekday_factors.html" width="800" height="400"></iframe>
 Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
+
+<div style="display: inline-block; vertical-align: top;">
+    <iframe src="/Final_Project/Figures/bokeh_year_norm.html" width="200" height="200"></iframe>
+</div>
+<div style="display: inline-block; vertical-align: top;">
+    <iframe src="/Final_Project/Figures/bokeh_year.html" width="200" height="200"></iframe>
+</div>
+
 
 Put in some interesting comments
 
