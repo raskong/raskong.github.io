@@ -3,6 +3,7 @@ from bokeh.plotting import *
 from bokeh.models import *
 from bokeh.io import output_file, show
 import seaborn as sns
+import numpy as np
 
 from Data_preparation import *
 
