@@ -1,15 +1,13 @@
 ---
-title: About Alembic
+title: Introduction
 feature_text: |
-  ## Alembic
-  A Jekyll boilerplate theme designed to be a starting point for any Jekyll website
-feature_image: "https://picsum.photos/1300/400?image=989"
+  ## Car crases in NYC
+  An analysis of how, when and where crashes appear the most
+feature_image: "https://vastphotos.com/files/uploads/photos/10401/high-resolution-new-york-city-skyline-l.jpg?v=20220712073521"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
 
 
-
-# Introduction
 This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. It is based on the dataset “Motor vehicle collisions - crashes”. (Link til kilde måske?)
 It contains over 2 million data points with 29 different attributes covering date, time and location (both coordinates, streetname and cross street name).
 Also number of people (drivers, pedestrians, cyclists) injuerd or killed as well as the contributing factor for the crash and the vehicle types involved are included.
