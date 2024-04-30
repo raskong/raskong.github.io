@@ -14,4 +14,4 @@ aside: false
 <iframe src="/Final_Project/Figures/cartype_counts.png" width="800" height="500"></iframe>
 
 
-<iframe src="/assets/Vehicle type.png" width="800" height="1000"></iframe>
+<iframe src="/assets/Vehicle type.png" width="800"></iframe>
