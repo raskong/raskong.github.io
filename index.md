@@ -16,7 +16,6 @@ excerpt: ""
     border-radius: 4px; /* Optional: Add rounded corners */
   }
 </style>
-{{ page.feature_text | markdownify }}
 
 
 This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. It is based on the dataset “Motor vehicle collisions - crashes”. (Link til kilde måske?)
