@@ -1,11 +1,21 @@
 ---
 title: Contributing Factor
 feature_text: |
-  A demo of Markdown and HTML includes
-feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
+  ## <span class="white-text">A demo of Markdown and HTML includes</span>
+feature_image: "https://picsum.photos/2560/600?image=873"
 excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
+
+<style>
+  .white-text {
+    color: white;
+  }
+</style>
+
+{{ page.feature_text | markdownify }}
+
+
 
 # Heading 1
 
