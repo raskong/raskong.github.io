@@ -43,10 +43,10 @@ Put in some interesting comments
 Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
 
 <div style="display: inline-block; vertical-align: top;">
-    <iframe src="/Final_Project/Figures/bokeh_year_norm.html" width="400" height="400"></iframe>
+    <iframe src="/Final_Project/Figures/bokeh_year_norm.html" width="200" height="200"></iframe>
 </div>
 <div style="display: inline-block; vertical-align: top;">
-    <iframe src="/Final_Project/Figures/bokeh_year.html" width="400" height="400"></iframe>
+    <iframe src="/Final_Project/Figures/bokeh_year.html" width="200" height="200"></iframe>
 </div>
 
 
