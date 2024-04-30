@@ -1,8 +1,8 @@
 ---
 title: Introduction
 feature_text: |
-  ## <span class="white-text">Car crases in NYC</span>
-  An analysis of how, when and where crashes appear the most
+  ## <span class="white-text">Car crases in NYC
+  An analysis of how, when and where crashes appear the most</span>
 feature_image: "https://zachfox.photography/static/21c758af2212588d177a9dfdf35e15e3/f8e01/2022-09-14%2019-28-58%20Blue%20IMG_7056%2001.webp"
 excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
 ---
