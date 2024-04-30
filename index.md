@@ -31,18 +31,12 @@ Please see the panes in the top to navigate through the different sections.
 
 
 
-
+#### Motivation and goal
+The video below will give you a brief insight into the goals for this analysis and creation of webpage.
 <figure>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/L3aFnudaWrg" frameborder="0" allowfullscreen></iframe>
-  <figcaption><i style="font-size: smaller;">Figure 1: Your caption here</i></figcaption>
+  <iframe width="800" height="515" src="https://www.youtube.com/embed/L3aFnudaWrg" frameborder="0" allowfullscreen></iframe>
 </figure>
 
-
-{% include video.html id="L3aFnudaWrg&ab" title="Introduction" %}
-
-``` html
-{% raw %}{% include video.html id="L3aFnudaWrg&ab" title="Introduction" %}{% endraw %}
-```
 
 
 
