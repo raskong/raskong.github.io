@@ -1,7 +1,7 @@
 ---
 feature_text: |
-  # <span class="white-text black-background">Location of crashes</span>
-  #### <span class="white-text black-background">Analysis of where in NYC most crashes happens</span>
+  # <span class="white-text black-background">Car crashes in NYC</span>
+  #### <span class="white-text black-background">Analysis of why, what and, where in NYC crashes happens</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
@@ -30,6 +30,12 @@ Different types of plots will make the story eaiser for you to navigate in the c
 Please see the panes in the top to navigate through the different sections.
 
 
+
+
+<figure>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/L3aFnudaWrg" frameborder="0" allowfullscreen></iframe>
+  <figcaption><i style="font-size: smaller;">Figure 1: Your caption here</i></figcaption>
+</figure>
 
 
 {% include video.html id="L3aFnudaWrg&ab" title="Introduction" %}
