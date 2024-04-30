@@ -1,18 +1,21 @@
 ---
 title: Introduction
 feature_text: |
-  # <span class="white-text">Car crases in NYC</span>
-  #### <span class="white-text">An analysis of how, when and where crashes appear the most</span>
+  # <span class="white-text black-background">Car crases in NYC</span>
+  #### <span class="white-text black-background">An analysis of how, when and where crashes appear the most</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: ""
 ---
-
 <style>
   .white-text {
     color: white;
   }
+  .black-background {
+    background-color: black;
+    padding: 0.2em 0.5em; /* Adjust padding as needed */
+    border-radius: 4px; /* Optional: Add rounded corners */
+  }
 </style>
-
 {{ page.feature_text | markdownify }}
 
 
