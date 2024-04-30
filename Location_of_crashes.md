@@ -4,7 +4,7 @@ feature_text: |
   ## <span class="white-text">A demo of Markdown and HTML includes</span>
 feature_image: "https://www.bigbustours.com/en/new-york/things-to-do-in-new-york-at-night"
 excerpt: "A demo of Markdown and HTML includes"
-aside: true
+aside: false
 ---
 
 <style>
