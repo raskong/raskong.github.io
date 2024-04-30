@@ -1,5 +1,6 @@
 ---
 title: Data overview
+### <span class="white-text">Data Overview</span>
 feature_text: |
   A demo of Markdown and HTML includes
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
