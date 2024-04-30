@@ -12,11 +12,11 @@ A significant drop can be seen in 2020, which is interesting. BLA...BLA...
 
 <div style="display: inline-block;">
     <!-- First Plot -->
-    <img src="bokeh_year_norm.html" alt="Plot 1" width="400">
+    <img src="/Final_Project/Figures/bokeh_year_norm.html" alt="Plot 1" width="400">
 </div>
 <div style="display: inline-block;">
     <!-- Second Plot -->
-    <img src="bokeh_year.html" alt="Plot 2" width="400">
+    <img src="/Final_Project/Figures/bokeh_year.html" alt="Plot 2" width="400">
 </div>
 
 <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="500"></iframe>
