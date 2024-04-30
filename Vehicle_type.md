@@ -8,7 +8,7 @@ aside: true
 ---
 
 
-<iframe src="/Final_Project/Figures/cartype_count.png" width="800" height="500"></iframe>
+<iframe src="/Final_Project/Figures/cartype_counts.png" width="800" height="500"></iframe>
 
 
 # Heading 1
