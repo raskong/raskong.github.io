@@ -1,11 +1,24 @@
 ---
 title: The location of car crashes
 feature_text: |
-  A demo of Markdown and HTML includes
-feature_image: "https://picsum.photos/2560/600?image=873"
+  ## <span class="white-text">A demo of Markdown and HTML includes</span>
+feature_image: "https://www.bigbustours.com/en/new-york/things-to-do-in-new-york-at-night"
 excerpt: "A demo of Markdown and HTML includes"
-aside: False
+aside: true
 ---
+
+<style>
+  .white-text {
+    color: white;
+  }
+</style>
+
+
+
+
+https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg
+
+
 Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that this structure could be to blame for the factors. 
 On Figure X, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
 <iframe src="/Final_Project/Figures/crashesmap.html" caption="Figure 3: Heatmap of stationcar crashes where people died" width="850" height="600"></iframe>
