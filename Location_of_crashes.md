@@ -1,19 +1,21 @@
 ---
-title: Location of crashes
+title: Most unsafe postal codes 
 feature_text: |
-  # <span class="white-text">Location of crashes</span>
-  #### <span class="white-text">Analysis of where in NYC most crashes happens</span>
+  # <span class="white-text black-background">Location of crashes</span>
+  #### <span class="white-text black-background">Analysis of where in NYC most crashes happens</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
-
 <style>
   .white-text {
     color: white;
   }
+  .black-background {
+    background-color: black;
+    padding: 0.2em 0.5em; /* Adjust padding as needed */
+    border-radius: 4px; /* Optional: Add rounded corners */
+  }
 </style>
-
-{{ page.feature_text | markdownify }}
 
 
 
