@@ -19,13 +19,19 @@ excerpt: "Where is this written????"
 ### Most unsafe postal codes 
 Although the number of car accidents is largely related to human factors and errors, it is also interesting to look at the city planning itself. It is not inconceivable that the structure of the roads and architechture of the city could be to blame for the factors. 
 On Figure 1, you can see a count of the number of car accidents between 2013 and 2023 divided into NYC's Postal Codes.
-<iframe src="/Final_Project/Figures/crashesmap.html" caption="Figure 3: Heatmap of stationcar crashes where people died" width="850" height="500"></iframe>
+<iframe src="/Final_Project/Figures/crashesmap.html" caption="Figure 3: Heatmap of stationcar crashes where people died" width="850" height="520"></iframe>
+Figure 1: Map of NYC's postal codes and indication of number of crashes between 2013 and 2023
 
-###### Figure 1: Map of NYC's postal codes and indication of number of crashes between 2013 and 2023
+
+
+<figure>
+  <iframe src="/Final_Project/Figures/crashesmap.html" width="850" height="520"></iframe>
+  <figcaption><i style="font-size: smaller;">Figure 1: Map of NYC's postal codes and indication of number of crashes between 2013 and 2023</i></figcaption>
+</figure>
+
  
 A relatively even distribution is seen here, with the exception of postal code 11236 (Canarsie|Brooklyn) and an increased concentration around Manhattan and the transition to Queens. 
-The reason why Canarsie is more exposed to car crashes could be that this covers the Broadway Junction where thw two big roads; Broadway and Atlantic Avenue meets. 
-This may be due to
+The reason why Canarsie is more exposed to car crashes could be that this covers the Broadway Junction where thw two big roads; Broadway and Atlantic Avenue meets, while Manhatan is the most densely populated borough of NYC (https://en.wikipedia.org/wiki/Manhattan, accessed 30-04-2024) which also could cause more frequent crashes.
 
 
 ### Specific roads
