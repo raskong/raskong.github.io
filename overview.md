@@ -2,10 +2,17 @@
 title: Data overview
 feature_text: |
   A demo of Markdown and HTML includes
-feature_image: "https://picsum.photos/2560/600?image=873"
+feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "A demo of Markdown and HTML includes"
 aside: False
 ---
+<style>
+  .white-text {
+    color: white;
+  }
+</style>
+
+
 
 A significant drop can be seen in 2020, which is interesting. BLA...BLA...
 
