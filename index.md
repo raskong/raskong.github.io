@@ -1,9 +1,9 @@
-
 ---
 feature_text: |
-  # <span class="white-text black-background">Car crashes in NYC</span>
-  #### <span class="white-text black-background">An analysis of how, when and where crashes appear the most</span>
+  # <span class="white-text black-background">Location of crashes</span>
+  #### <span class="white-text black-background">Analysis of where in NYC most crashes happens</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
+excerpt: "Where is this written????"
 ---
 <style>
   .white-text {
@@ -16,6 +16,8 @@ feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-
   }
 </style>
 
+
+### Introduction
 This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. It is based on the dataset “Motor vehicle collisions - crashes”. (Link til kilde måske?)
 It contains over 2 million data points with 29 different attributes covering date, time and location (both coordinates, streetname and cross street name).
 Also number of people (drivers, pedestrians, cyclists) injuerd or killed as well as the contributing factor for the crash and the vehicle types involved are included.
