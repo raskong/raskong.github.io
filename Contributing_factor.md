@@ -1,8 +1,13 @@
 ---
 title: Contributing Factor
 feature_text: |
+<<<<<<< HEAD
   ## <span class="white-text">A demo of Markdown and HTML includes</span>
 feature_image: "https://picsum.photos/2560/600?image=873"
+=======
+  A demo of Markdown and HTML includes
+feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
+>>>>>>> b38d321977276095208e4245429d1e440ab87c25
 excerpt: "A demo of Markdown and HTML includes"
 aside: true
 ---
