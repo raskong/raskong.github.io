@@ -4,10 +4,14 @@ from Exploratory import *
 
 # %%#%%Car type counts:
 df.loc[df['VEHICLE TYPE CODE 1'] == 'sport utility / station wagon', 'VEHICLE TYPE CODE 1'] = 'station wagon/sport utility vehicle'
-focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(20).index
-counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(20)
+focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(15).index
+focus_vehicles = focus_vehicles[focus_vehicles != '4 dr sedan']
+df = df[df['VEHICLE TYPE CODE 1'].isin(focus_vehicles)]
+counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(15)
 
 
+
+#%%Cartype counts
 plt.figure(figsize=(10, 6))
 plt.bar(counts_vehicle.index, counts_vehicle)
 #plt.yscale('log')
@@ -80,20 +84,21 @@ show(p) #displays your plot
 #%%Bokeh per year
 year_vehicles = df.groupby(['YEAR', 'VEHICLE TYPE CODE 1']).size().unstack()
 
+
 output_notebook()
-normalized_vehicles = year_vehicles.div(year_vehicles.sum(axis=0), axis=1)
-normalized_vehicles.index = normalized_vehicles.index.astype(str)
+#normalized_vehicles = year_vehicles.div(year_vehicles.sum(axis=0), axis=1)
+#normalized_vehicles.index = normalized_vehicles.index.astype(str)
 
 year_vehicles.index = year_vehicles.index.astype(str)
 
-df_bokeh = ColumnDataSource(normalized_vehicles)
-#df_bokeh = ColumnDataSource(year_vehicles)
+#df_bokeh = ColumnDataSource(normalized_vehicles)
+df_bokeh = ColumnDataSource(year_vehicles)
 
 years = [str(2013 + i) for i in range(11)]
 colors = sns.color_palette("husl", len(focus_vehicles))
 colors = ['#%02x%02x%02x' % (int(r * 255), int(g * 255), int(b * 255)) for r, g, b in colors]
 
-p = figure(x_range = FactorRange(factors=years), title="Crashes per year - 2013 to 2023 (Normalized values)", x_axis_label='Year', y_axis_label='Crashes (Normalized)', height=400, width=700) 
+p = figure(x_range = FactorRange(factors=years), title="Crashes per year for different vehicle types - 2013 to 2023", x_axis_label='Year', y_axis_label='Crashes', height=400, width=700) 
 k = 0
 
 bar ={}
@@ -111,7 +116,9 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year_factors.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year_vehicles.html')
 show(p) #displays your plot
 
 
+
+# %%

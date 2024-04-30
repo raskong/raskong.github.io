@@ -19,35 +19,26 @@ excerpt: "Where is this written????"
 
 A significant drop can be seen in 2020, which is interesting. BLA...BLA...
 
-
-<div style="display: inline-block;">
-    <!-- First Plot -->
-    <img src="/Final_Project/Figures/bokeh_year_norm.html" alt="Plot 1" width="400">
-</div>
-<div style="display: inline-block;">
-    <!-- Second Plot -->
-    <img src="/Final_Project/Figures/bokeh_year.html" alt="Plot 2" width="400">
-</div>
-
 <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="500"></iframe>
 
 ### Contributing factors
-Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors), that this page will mostly concern. These are all bases on vehicle number 1, as there is always at least one vehicle:
+Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors). The label *'unspecified'* has been left out as it is not deemed interesting in this case. The numbers are all based on vehicle number 1, as there is always at least one vehicle in a crash:
 
 <iframe src="/Final_Project/Figures/bokeh_year_factors.html" width="800" height="400"></iframe>
 Figure 1: Bokeh plot for focus factors for vehicle 1 per year from 2013 to 2023.
 
-Put in some interesting comments
+It becomes evident, that especially driver *'inattention/distraction'* pays a great tribute to the total number of crashes.
+Also *'failure to yield right of way'* has an influence.
 
-<iframe src="/Final_Project/Figures/bokeh_weekday_factors.html" width="800" height="400"></iframe>
+Another Bokeh plot below shows the 14 most frequent vehicle types involved (for Vehicle 1).
+Especially *'station wagon/sport utility vehicle (SUV)'* are present alongside *'sedan'*. This is to no surprise, as these cars are also the most common cars.
+One thing that becomes evident is the huge shift around 2016 for some of the vehicle types. *'passenger vehicle'* drops significantly to a value of 0 from 2017 and *'sedan'* goes from 0 to a rather high value in 2016. 
+The reason for this must be that they have changed the procedures for data collection in 2016 and thereby the categories, they are using.
+This is not ideal and is something that we will have to keep in mind for the rest of the analysis.
+
+<iframe src="/Final_Project/Figures/bokeh_year_vehicles.html" width="800" height="400"></iframe>
 Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
 
-<div style="display: inline-block; vertical-align: top;">
-    <iframe src="/Final_Project/Figures/bokeh_year_norm.html" width="200" height="200"></iframe>
-</div>
-<div style="display: inline-block; vertical-align: top;">
-    <iframe src="/Final_Project/Figures/bokeh_year.html" width="200" height="200"></iframe>
-</div>
 
 
 Put in some interesting comments

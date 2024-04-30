@@ -1,8 +1,8 @@
-import folium
+
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-from folium.plugins import HeatMap
+
 
 df = pd.read_csv('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Motor_Vehicle_Collisions_-_Crashes_20240409.csv')
 

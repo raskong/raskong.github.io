@@ -234,7 +234,10 @@ output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/1
 show(p) #displays your plot
 
 
+year_factors.drop(columns=['unspecified'], inplace=True)
+focus_factors = focus_factors[focus_factors != 'unspecified']
 #%% Bokeh year not normalized
+
 output_notebook()
 normalized_crashes = year_factors.div(year_factors.sum(axis=0), axis=1)
 normalized_crashes.index = normalized_crashes.index.astype(str)
@@ -248,7 +251,7 @@ years = [str(2013 + i) for i in range(11)]
 colors = sns.color_palette("husl", len(focus_factors))
 colors = ['#%02x%02x%02x' % (int(r * 255), int(g * 255), int(b * 255)) for r, g, b in colors]
 
-p = figure(x_range = FactorRange(factors=years), title="Crashes per year", x_axis_label='Year', y_axis_label='Crashes', height=400, width=700) 
+p = figure(x_range = FactorRange(factors=years), title="Crashes per year according to contributing factor for vehicle 1", x_axis_label='Year', y_axis_label='Crashes', height=400, width=700) 
 k = 0
 
 bar ={}
@@ -266,7 +269,7 @@ p.add_layout(legend, 'left')
 p.legend.click_policy="mute" ### assigns the click policy (you can try to use ''hide'
 
 
-output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year.html')
+output_file('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/bokeh_year_factors.html')
 show(p) #displays your plot
 
 #%% Bokeh year normalized
