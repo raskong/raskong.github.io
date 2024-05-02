@@ -21,7 +21,7 @@ On this page we will analyze the contributing factors for vehicle number 1 for t
 On the figure the 21 most frequent factors is shown on a bar plot. Unfortunately a very big part (around 1/3) of the observations has been labeled as *'unspecified'* which is unfortunate. 
 
 {{ page.feature_text | markdownify }}
-<iframe src="/Final_Project/Figures/factor_counts.png" width="800" height="500"></iframe>
+<iframe src="Final_Project/Figures/factor_counts.png" width="800" height="500"></iframe>
 
 Below the 20 most frequent contributing factors has been plotted per hours of the day as bar plots with. The *'unspecified'* label has been removed, as we did not find it interesting.
 
@@ -36,4 +36,4 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 1. No patterns are deemed very interesting or rise any questions for further exploration.
 2. It proves that the data is somewhat reliable, as it follows expected patterns.
 
-<iframe src="/Final_Project/Figures/crashfactors per hour.png" width="800" height="500"></iframe>
+<iframe src="/Final_Project/Figures/crashfactors per hour.png" width="1200" height="1800"></iframe>
