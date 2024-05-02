@@ -8,14 +8,14 @@ import matplotlib.pyplot as plt
 from Data_preparation import *
 
 #%%Creating focus crashes df:
-focus_factors = np.array(df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(15).index)
+focus_factors = np.array(df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(21).index)
 #focus_factors = np.delete(focus_factors, np.where(focus_factors == 'unspecified')[0])
 
 df = df[df['CONTRIBUTING FACTOR VEHICLE 1'].isin(focus_factors)]
 
 
 #%%Focus counts:
-counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(20)
+counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(21)
 
 plt.figure(figsize=(8, 5))
 plt.bar(counts.index, counts)
@@ -92,13 +92,14 @@ plt.show()
 
 
 #%% Barplot per month per focus factor
+df = df[df['CONTRIBUTING FACTOR VEHICLE 1'] != 'unspecified']
 df['MONTH'] = df['CRASH DATE'].dt.month
 month_factors = df.groupby(['MONTH', 'CONTRIBUTING FACTOR VEHICLE 1']).size().unstack()
 
 import calendar
 
 num_rows = 5
-num_cols = 3
+num_cols = 4
 fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
 
 fig.suptitle('Occurrences per month for Focus Factors (2013-2023)', fontsize=16)
@@ -121,12 +122,13 @@ plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/1
 plt.show()
 
 #%%Barplot per hour of day per focus factor
+df = df[df['CONTRIBUTING FACTOR VEHICLE 1'] != 'unspecified']
 df['CRASH TIME'] = pd.to_datetime(df['CRASH TIME'], format='%H:%M')
 df['CRASH HOUR'] = df['CRASH TIME'].dt.hour
 hour_factors = df.groupby(['CRASH HOUR', 'CONTRIBUTING FACTOR VEHICLE 1']).size().unstack()
 
 num_rows = 5
-num_cols = 3
+num_cols = 4
 fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
 
 fig.suptitle('Occurrences per hour of the day for Focus Factors (2013-2023)', fontsize=16)

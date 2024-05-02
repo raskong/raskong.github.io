@@ -37,7 +37,7 @@ The reason for this must be that they have changed the procedures for data colle
 This is not ideal and is something that we will have to keep in mind for the rest of the analysis.
 
 <iframe src="/Final_Project/Figures/bokeh_year_vehicles.html" width="800" height="400"></iframe>
-Figure 2: Bokeh plot for focus factors for vehicle 1 per weekday summed from 2013 to 2023.
+Figure 2: Bokeh plot for vehicle type 1 for the years from 2013 to 2023.
 
 
 
