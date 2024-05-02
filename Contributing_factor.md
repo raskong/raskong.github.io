@@ -37,3 +37,12 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 
 <iframe src="/Final_Project/Figures/crashfactors per hour.png" width="100%" height="auto"></iframe>
 
+
+
+
+
+# A
+<iframe src="/Final_project/Figures/Alc_calender_plot.png"width="100%"></iframe>
+
+
+
