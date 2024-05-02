@@ -1,7 +1,7 @@
 ---
 feature_text: |
   # <span class="white-text black-background">Contributing factor</span>
-  #### <span class="white-text black-background">Analysis of which factors influence the probability of car accidents</span>
+  ##### <span class="white-text black-background">Analysis of which factors influence the probability of car accidents</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
