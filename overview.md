@@ -16,10 +16,18 @@ excerpt: "Where is this written????"
   }
 </style>
 
+As a frist step, we can have a breth overveiw over the corrlations in the raw data: 
+
+<img src="/Final_Project/Figures/spearman_corr_matrix.png" width="60%" height="auto"></iframe>
+
+
+
 
 A significant drop can be seen in 2020, which is interesting. BLA...BLA...
 
+
 <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="500"></iframe>
+
 
 ### Contributing factors
 Below you can find a Bokeh plot showing the 14 most frequent contributing factors (Refered to as focus factors). The label *'unspecified'* has been left out as it is not deemed interesting in this case. The numbers are all based on vehicle number 1, as there is always at least one vehicle in a crash:
