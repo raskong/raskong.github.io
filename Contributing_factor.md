@@ -14,8 +14,7 @@ aside: false
 </style>
 
 {{ page.feature_text | markdownify }}
-<iframe src="/Final_Project/figures/factor_counts.png" width="800" height="500"></iframe>
-
+<iframe src="/Final_Project/Figures/factor_counts.png" width="800" height="500"></iframe>
 
 
 

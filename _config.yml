@@ -135,7 +135,7 @@ navigation_header:
   url: /search/
 
 navigation_footer:
-- title: Created by Mads Emil Oxholm Iversen (s191229), Rasmus Kongsted (s193984) og Lin Chang Brendstrup (s193982)
+- title: Created by Mads Emil Oxholm Iversen (s191229), Rasmus Kongsted (s193984) and Lin Chang Brendstrup (s193982)
   url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
