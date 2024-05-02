@@ -20,7 +20,7 @@ On this page we will analyze the contributing factors for vehicle number 1 for t
 
 On the figure the 21 most frequent factors is shown on a bar plot. Unfortunately a very big part (around 1/3) of the observations has been labeled as *'unspecified'* which is unfortunate. 
 
-<iframe src="Final_Project/Figures/factor_counts.png" width="800" height="500"></iframe>
+<img src="/Final_Project/Figures/factor_counts.png" alt="Description of Image" style="width:100%; height:auto;">
 
 Below the 20 most frequent contributing factors has been plotted per hours of the day as bar plots with. The *'unspecified'* label has been removed, as we did not find it interesting.
 
