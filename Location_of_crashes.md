@@ -42,15 +42,15 @@ This is to be expected as more accidents will likely occur on a longer road. It 
 
 
 ### Heatmap
-From the analysis of "Vehicle type" we found that stationcars were especially unsafe when it comes to the frequency of crashes. On the heatmap on Figure 3 it is visualized where in NYC stationcars most often result in crashes where at least one person is killed. 
+From the analysis of "Vehicle type" we found that stationcars were especially unsafe when it comes to the frequency of crashes. On Figure 3 a zoom in on an heatmap can be seen, which displays an area in NYC where stationcars often result in crashes where at least one person is killed. 
 
 <figure>
   <iframe src="/Final_Project/Figures/heatmaptest.html" width="1000" height="1000"></iframe>
   <figcaption><i style="font-size: smaller;">Figure 3: Heatmap of where stationcars most often crash resulting in killed people</i></figcaption>
 </figure>
-Overall, the density of fatal crashes is fairly evenly distributed all over NYC. Some areas/locations do however have more reported crashes as the ones displayed in Figure 3. These often have in common that they are either located around large roads or in densely populated areas. 
+On the heatmap cutout, and if you zoom in and out yoursel, it can overall be concluded, that the density of fatal crashes is fairly evenly distributed all over NYC. Some areas/locations do however have more reported crashes as the ones displayed in Figure 3. These often have in common that they are either located around large roads or in densely populated areas. 
 
-### Conclusion on location of crashes. 
+### Conclusion on location of crashes 
 After having conducted an analysis of where the crashes (both fatal and non-fatal) happen in NYC, it is fair to conclude that no unexpected patterns appear. It can be concluded that crashes most often appear, when it either is a very densely populated area or you are on a big road/the intersection of several.  
 
 
