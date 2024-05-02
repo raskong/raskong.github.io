@@ -1,19 +1,23 @@
 ---
-title: Contributing Factor
 feature_text: |
-  ## <span class="white-text">A demo of Markdown and HTML includes</span>
-feature_image: "https://www.bigbustours.com/en/new-york/things-to-do-in-new-york-at-night"
-excerpt: "A demo of Markdown and HTML includes"
-aside: false
+  # <span class="white-text black-background">Contributing factor</span>
+  #### <span class="white-text black-background">Analysis of which factors influence the probability of car accidents</span>
+feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
+excerpt: "Where is this written????"
 ---
-
 <style>
   .white-text {
     color: white;
   }
+  .black-background {
+    background-color: black;
+    padding: 0.2em 0.5em; /* Adjust padding as needed */
+    border-radius: 4px; /* Optional: Add rounded corners */
+  }
 </style>
 
-{{ page.feature_text | markdownify }}
+
+
 <iframe src="/Final_Project/Figures/factor_counts.png" width="800" height="500"></iframe>
 
 
