@@ -24,12 +24,12 @@ A significant drop can be seen in 2020, which is interesting. BLA...BLA...
 <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="500"></iframe>
 
 
-As a secound step, we can have a brief look if there is any corrlations (Spearman) that pop and are interesting to investigate more furter: 
+As a secound step, we can have a brief look if there is any clear corrlations (Spearman) that we need investigate furter: 
 
 <img src="/Final_Project/Figures/spearman_corr_matrix.png" width="100%" height="auto">
 
 
-In the Corrlation matrix there some patterns showing there is a  
+In the Corrlation matrix there some patterns showing there is a bla bla...  
 
 
 
