@@ -1,20 +1,20 @@
 ---
-title: Data Overview
 feature_text: |
-  # <span class="white-text">Data Overview</span>
-  ## <span class="white-text">Basic stats</span>
+  # <span class="white-text black-background">Data overview</span>
+  #### <span class="white-text black-background">Basic stats</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
-
 <style>
   .white-text {
     color: white;
   }
+  .black-background {
+    background-color: black;
+    padding: 0.2em 0.5em; /* Adjust padding as needed */
+    border-radius: 4px; /* Optional: Add rounded corners */
+  }
 </style>
-
-{{ page.feature_text | markdownify }}
-
 
 
 A significant drop can be seen in 2020, which is interesting. BLA...BLA...
