@@ -17,4 +17,4 @@ excerpt: "Where is this written????"
 </style>
 
 
-<iframe src="/Final_Project/Figures/cartype_counts.png" width="800" height="500"></iframe>
+<img src="/Final_Project/Figures/cartype_counts.png" width="100%" height="auto">
