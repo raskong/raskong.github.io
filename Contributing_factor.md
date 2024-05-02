@@ -35,7 +35,7 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 1. No patterns are deemed very interesting or rise any questions for further exploration.
 2. It proves that the data is somewhat reliable, as it follows expected patterns.
 
-<iframe src="/Final_Project/Figures/crashfactors per hour.png" width="100%" height="auto"></iframe>
+<img src="/Final_Project/Figures/crashfactors per hour.png" alt="Description of Image" style="width:100%; height:auto;">
 
 
 
