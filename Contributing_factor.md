@@ -42,6 +42,7 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 
 # Alcohole involment
 There is a clear pattern of people drinking and driving in the weekends + 1st of January.  
+bla bla
 <img src="/Final_Project/Figures/Alc_calender_plot.png" width="100%" height="auto">
 
 
@@ -49,6 +50,6 @@ There is a clear pattern of people drinking and driving in the weekends + 1st of
 
 
 # Slippery roads
-There is a clear pattern of people drinking and driving in the weekends + 1st of January.  
+In the winter the roads are wet and icy bla bla  
 
 ## insert barplot 
