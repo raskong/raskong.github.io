@@ -26,7 +26,7 @@ plt.xlabel('Focus factor')
 plt.xticks(rotation = 90)
 plt.ylabel('Count')
 plt.title('Counts per contributing factor for vehicle 1')
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/factor_counts.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/factor_counts.png', bbox_inches='tight')
 # Show the plot
 plt.show()
 
@@ -144,7 +144,7 @@ for i, crime in enumerate(hour_factors.columns):
 fig.text(0.5, -0.01, 'Hours of the day', size=12, ha='center')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/crashfactors per hour.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per hour.png', bbox_inches='tight')
 plt.show()
 
 #%% Barplot per weekday
