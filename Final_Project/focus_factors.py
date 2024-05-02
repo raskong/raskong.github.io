@@ -15,7 +15,7 @@ df = df[df['CONTRIBUTING FACTOR VEHICLE 1'].isin(focus_factors)]
 
 
 #%%Focus counts:
-counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(21)
+counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(11)
 
 plt.figure(figsize=(8, 5))
 plt.bar(counts.index, counts)
@@ -26,7 +26,7 @@ plt.xlabel('Focus factor')
 plt.xticks(rotation = 90)
 plt.ylabel('Count')
 plt.title('Counts per contributing factor for vehicle 1')
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/factor_counts.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/factor_counts.png', bbox_inches='tight')
 # Show the plot
 plt.show()
 
