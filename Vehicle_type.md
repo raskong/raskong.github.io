@@ -17,4 +17,4 @@ excerpt: "Where is this written????"
 </style>
 
 
-<img src="/Final_Project/Figures/cartype_counts.png" width="100%" height="auto">
+<img src="/cartype_counts.png" width="100%" height="auto">
