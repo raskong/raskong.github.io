@@ -15,7 +15,7 @@ df = df[df['CONTRIBUTING FACTOR VEHICLE 1'].isin(focus_factors)]
 
 
 #%%Focus counts:
-counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(11)
+counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(21)
 
 plt.figure(figsize=(8, 5))
 plt.bar(counts.index, counts)

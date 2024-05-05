@@ -9,8 +9,6 @@ focus_vehicles = focus_vehicles[focus_vehicles != '4 dr sedan']
 df = df[df['VEHICLE TYPE CODE 1'].isin(focus_vehicles)]
 counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(15)
 
-
-
 #%%Cartype counts
 plt.figure(figsize=(10, 6))
 plt.bar(counts_vehicle.index, counts_vehicle)
@@ -22,7 +20,7 @@ plt.xlabel('Vehicle type')
 plt.xticks(rotation = 90)
 plt.ylabel('Count')
 plt.title('Counts of crashes per vehicle type 1')
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/cartype_counts.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/cartype_counts.png', bbox_inches='tight')
 # Show the plot
 plt.show()
 
