@@ -51,5 +51,8 @@ bla bla
 
 # Slippery roads
 In the winter the roads are wet and icy bla bla  
+<img src="/Final_Project/Figures/Ice_calender_plot.png" width="100%" height="auto">
+
+
 
 ## insert barplot 
