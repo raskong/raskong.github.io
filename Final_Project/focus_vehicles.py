@@ -4,10 +4,12 @@ from Exploratory import *
 
 # %%#%%Car type counts:
 df.loc[df['VEHICLE TYPE CODE 1'] == 'sport utility / station wagon', 'VEHICLE TYPE CODE 1'] = 'station wagon/sport utility vehicle'
-focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(16).index
+focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(18).index
 focus_vehicles = focus_vehicles[focus_vehicles != '4 dr sedan']
+focus_vehicles = focus_vehicles[focus_vehicles != 'other']
+focus_vehicles = focus_vehicles[focus_vehicles != 'unknown']
 df = df[df['VEHICLE TYPE CODE 1'].isin(focus_vehicles)]
-counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(16)
+counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts()
 
 #%%Cartype counts
 plt.figure(figsize=(10, 6))

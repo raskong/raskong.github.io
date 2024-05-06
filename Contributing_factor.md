@@ -43,7 +43,7 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 
 <figure>
   <img src="/Final_Project/Figures/crashfactors per hour.png" alt="Description of Image" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 2: Contributing factors plottet for each hour of the day.</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 2: Contributing factors plotted for each hour of the day.</i></figcaption>
 </figure>
 
 
