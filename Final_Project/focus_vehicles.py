@@ -11,7 +11,7 @@ counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(15)
 
 #%%Cartype counts
 plt.figure(figsize=(10, 6))
-plt.bar(counts_vehicle.index, counts_vehicle)
+plt.bar(counts_vehicle.index, counts_vehicle, color = 'salmon')
 #plt.yscale('log')
 
 

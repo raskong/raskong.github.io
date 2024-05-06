@@ -18,7 +18,7 @@ df = df[df['CONTRIBUTING FACTOR VEHICLE 1'].isin(focus_factors)]
 counts = df['CONTRIBUTING FACTOR VEHICLE 1'].value_counts().head(21)
 
 plt.figure(figsize=(8, 5))
-plt.bar(counts.index, counts)
+plt.bar(counts.index, counts, color='salmon')
 #plt.yscale('log')
 
 # Label the axes
@@ -47,7 +47,7 @@ for i, crash in enumerate(year_factors.columns):
     row_index = i // num_cols
     col_index = i % num_cols
     
-    axes[row_index, col_index].bar(year_factors.index, year_factors[crash], color='skyblue')
+    axes[row_index, col_index].bar(year_factors.index, year_factors[crash], color='pink')
     axes[row_index, 0].set_ylabel('Occurrences')
     axes[row_index, col_index].set_title(f'{crash}', fontsize=12)
     axes[row_index, col_index].tick_params(axis='x', rotation=90)
