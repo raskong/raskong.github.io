@@ -131,8 +131,6 @@ navigation_header:
   url: /Vehicle_type/
 - title: Location of crashes
   url: /Location_of_crashes/
-- title: Search
-  url: /search/
 
 navigation_footer:
 - title: Created by Mads Emil Oxholm Iversen (s191229), Rasmus Kongsted (s193984) and Lin Chang Brendstrup (s193982)
