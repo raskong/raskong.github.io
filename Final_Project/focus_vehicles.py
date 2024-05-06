@@ -120,3 +120,54 @@ show(p) #displays your plot
 
 
 # %%
+hour_factors = df.groupby(['CRASH HOUR', 'VEHICLE TYPE CODE 1']).size().unstack()
+
+num_rows = 5
+num_cols = 3
+fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
+
+fig.suptitle('Occurrences per hour of the day for Focus Vehicles (2013-2023)', fontsize=16)
+
+for i, crime in enumerate(focus_vehicles):
+    row_index = i // num_cols
+    col_index = i % num_cols
+    
+    axes[row_index, col_index].bar(hour_factors.index, hour_factors[crime], color='salmon')
+    axes[row_index, 0].set_ylabel('Occurrences')
+    axes[row_index, col_index].set_title(f'{crime}', fontsize=12)  
+
+fig.text(0.5, -0.01, 'Hours of the day', size=12, ha='center')
+plt.tight_layout(rect=[0, 0, 1, 0.96])
+
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per hour.png', bbox_inches='tight')
+plt.show()
+
+
+#%% Barplot of crash types per weekdays for vehicle 1:
+df['WEEKDAY'] = df['CRASH DATE'].dt.weekday
+weekday_factors = df.groupby(['WEEKDAY', 'VEHICLE TYPE CODE 1']).size().unstack()
+
+plt.figure(figsize=(8, 6))  # Adjust the figure size if needed
+
+week_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+num_rows = 5
+num_cols = 3
+fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
+
+fig.suptitle('Occurrences per weekday for Focus Factors (2013-2023)', fontsize=16)
+
+for i, crash in enumerate(weekday_factors.columns):
+    row_index = i // num_cols
+    col_index = i % num_cols
+    
+    axes[row_index, col_index].bar(week_order, weekday_factors[crash], color='skyblue')
+    axes[row_index, 0].set_ylabel('Occurrences')
+    axes[row_index, col_index].set_title(f'{crash}', fontsize=12)
+    axes[row_index, col_index].tick_params(axis='x', rotation=90)
+
+fig.text(0.5, -0.01, 'Weekdays', size=12, ha='center')
+plt.tight_layout(rect=[0, 0, 1, 0.96])
+
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/vehicles per weekday.png', bbox_inches='tight')
+plt.show()

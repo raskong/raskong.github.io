@@ -18,3 +18,9 @@ excerpt: "Where is this written????"
 
 
 <img src="/cartype_counts.png" width="100%" height="auto">
+
+
+
+What is interesting on the plot below is that some vehicles have few crashes in the weekends. Looking closer it seems, that what these vehicles have in common, is that they are all bigger sized vehicles such as *'box truck'*, *'bus'*, *'pick-up truck'*, *'tractor truck diesel'* and *'van'*. The reason for this could be that these cars are mainly related to when people are working, therefor higher in the weekdays.
+
+<img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
