@@ -16,11 +16,17 @@ excerpt: "Where is this written????"
   }
 </style>
 
+On Figure 1 below an investigation has ben made on whether the type of car involved in the crash has any importance. The three most often appearing types of car (station wagon, sedan and passenger vehicle) must be assumed to also be the type of transportation with the highest density in the city. At least it is of no surprise that these appear more often than taxies as an example. 
+<figure>
+  <img src="/cartype_counts.png" width="100%" height="auto">
+  <figcaption><i style="font-size: smaller;">Figure 1: Count of how often different cartypes are involved in crashes</i></figcaption>
+</figure>
 
-<img src="/cartype_counts.png" width="100%" height="auto">
+
+Looking at all the vehicle types individually and then investigating which day of the week most car crashes happen, it appears that some vehicles have few crashes in the weekends (Figure 2). Looking closer it seems, that what these vehicles have in common, is that they are all bigger sized vehicles such as *'box truck'*, *'bus'*, *'pick-up truck'*, *'tractor truck diesel'* and *'van'*. The reason for this could be that these cars are mainly related to when people are working, therefor higher in the weekdays.
 
 
-
-What is interesting on the plot below is that some vehicles have few crashes in the weekends. Looking closer it seems, that what these vehicles have in common, is that they are all bigger sized vehicles such as *'box truck'*, *'bus'*, *'pick-up truck'*, *'tractor truck diesel'* and *'van'*. The reason for this could be that these cars are mainly related to when people are working, therefor higher in the weekdays.
-
-<img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
+<figure>
+  <img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
+  <figcaption><i style="font-size: smaller;">Figure 2: The 15 most frequently car types involeved in crashes and the observations according to weekday</i></figcaption>
+</figure>

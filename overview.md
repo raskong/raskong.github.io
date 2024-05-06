@@ -22,7 +22,7 @@ Starting out by investigating the number of crashes which historically have happ
 
 
 <figure>
-  <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="450"></iframe>
+  <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="480"></iframe>
   <figcaption><i style="font-size: smaller;">Figure 1: Number of crashes reported in NYC in the years between 2013 and 2023</i></figcaption>
 </figure>
 
