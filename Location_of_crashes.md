@@ -32,7 +32,7 @@ The reason why Canarsie is more exposed to car crashes could be that this covers
 ### Specific roads
 Another interesting factor for car accidents is the rest roads they take place on. On Figure 2, you can see the 10 roads where accidents most often occur.
 <figure>
-  <iframe src="/Final_Project/Figures/top 10 streets.png" width="800" height="auto"></iframe>
+  <iframe src="/Final_Project/Figures/top 10 streets.png" width="800" height="800"></iframe>
   <figcaption><i style="font-size: smaller;">Figure 2: Bar plot of the 10 roads in NYC where the most car crashes happens</i></figcaption>
 </figure>
 
