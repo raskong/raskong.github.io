@@ -28,5 +28,5 @@ Looking at all the vehicle types individually and then investigating which day o
 
 <figure>
   <img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 2: The 15 most frequently car types involeved in crashes and the observations according to weekday</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 2: The 15 most frequent car types involeved in crashes and the observations according to weekday</i></figcaption>
 </figure>
