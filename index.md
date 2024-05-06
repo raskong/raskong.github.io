@@ -22,10 +22,10 @@ It contains over 2 million data points with 29 different attributes covering dat
 Also number of people (drivers, pedestrians, cyclists) injuerd or killed as well as the contributing factor for the crash and the vehicle types involved are included.
 
 To make it easy for you to navigate through the data we have divided the analysis into four sub groups:
->1. A more general data overview.
->2. The contributing factors for the crashes.
->3. The vehicle types involved.
->4. Location based analysis
+   1. A more general data overview.
+   2. The contributing factors for the crashes.
+   3. The vehicle types involved.
+   4. Location based analysis
 
 Different types of plots will make the story eaiser for you to navigate in the content.
 
