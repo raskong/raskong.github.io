@@ -1,7 +1,7 @@
 ---
 feature_text: |
   # <span class="white-text black-background">Car crashes in NYC</span>
-  #### <span class="white-text black-background">Analysis of why, what and, where in NYC crashes happens</span>
+  #### <span class="white-text black-background">Analysis of why, what, and where in NYC crashes happens</span>
 feature_image: "https://d3iso9mq9tb10q.cloudfront.net/magefan_blog/n/e/new-york-nightlife-things-to-do-at-night-big-bus-tours-jan-2017.jpg"
 excerpt: "Where is this written????"
 ---
