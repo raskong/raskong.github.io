@@ -40,7 +40,7 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 
 
 
-# Alcohole involment
+# Alcohol involment
 Due to the different pattern of *'alcohol involvement'* we chose to dive deeper into it by using a calendar plot.
 What becomes evident is, that there is a clear pattern of people drinking and driving in the weekends. What is also interesting is that the 1st of january is significantly higher.
 <img src="/Final_Project/Figures/Alc_calender_plot.png" width="100%" height="auto">
