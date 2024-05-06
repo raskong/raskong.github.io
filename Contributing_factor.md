@@ -57,15 +57,4 @@ What becomes evident og Figure 3 is, that there is a clear pattern of people dri
 </figure>
 
 
-
-
-# Slippery roads
-In the winter the roads are wet and icy bla bla  
-<img src="/Final_Project/Figures/Ice_calender_plot.png" width="100%" height="auto">
-<figure>
-  <img src="/Final_Project/Figures/Alc_calender_plot.png" width="100%" height="auto">
-  <figcaption><i style="font-size: smaller;">Figure 4: Crashes involving slippery roads over the years.</i></figcaption>
-</figure>
-
-
 ## insert barplot 
