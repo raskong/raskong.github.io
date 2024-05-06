@@ -139,7 +139,7 @@ for i, crime in enumerate(focus_vehicles):
 fig.text(0.5, -0.01, 'Hours of the day', size=12, ha='center')
 plt.tight_layout(rect=[0, 0, 1, 0.96])
 
-plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/crashfactors per hour.png', bbox_inches='tight')
+plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/Figures/vehicles per hour.png', bbox_inches='tight')
 plt.show()
 
 
@@ -155,7 +155,7 @@ num_rows = 5
 num_cols = 3
 fig, axes = plt.subplots(nrows=num_rows, ncols=num_cols, figsize=(12, 18),sharex=True)
 
-fig.suptitle('Occurrences per weekday for Focus Factors (2013-2023)', fontsize=16)
+fig.suptitle('Occurrences per Weekday for Focus Vehicles (2013-2023)', fontsize=16)
 
 for i, crash in enumerate(weekday_factors.columns):
     row_index = i // num_cols
