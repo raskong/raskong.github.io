@@ -18,9 +18,8 @@ excerpt: "Where is this written????"
 
 # A first look on the data
 
-A significant drop can be seen in 2020, which is interesting. BLA...BLA...
+A significant drop can be seen in 2020, which is interesting. This is very likely caused by the COVID pandemeic <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">[1]</a>, as this resulted in fewer cars on the elsewise very crowded roads caused by NYC being the most populated city in US <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">[2]</a>
 
-According to a recent <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">study</a>, the population of bees is declining rapidly.
 
 <iframe src="/Final_Project/Figures/crashes_per_year.png" width="800" height="500"></iframe>
 
