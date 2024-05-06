@@ -17,8 +17,7 @@ excerpt: "Where is this written????"
 </style>
 
 # A first look on the data
-
-On Figure 1, a significant drop can be seen in 2020, which is interesting. This is very likely caused by the COVID pandemeic <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">[1]</a>, as this resulted in fewer cars on the elsewise very crowded roads caused by NYC being the most populated city in US <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">[2]</a>
+Starting out by investigating the number of crashes which historically have happened each year since 2013(Figure 1), a significant drop can be seen in 2020, which is interesting. This is very likely caused by the COVID pandemeic <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">[1]</a>, as this resulted in fewer cars on the elsewise very crowded roads caused by NYC being the most populated city in US <a href="https://jknylaw.com/new-york-car-accident-lawyer/statistics/">[2]</a>
 
 
 
