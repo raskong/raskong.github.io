@@ -136,7 +136,6 @@ navigation_header:
 
 navigation_footer:
 - title: Created by Mads Emil Oxholm Iversen (s191229), Rasmus Kongsted (s193984) and Lin Chang Brendstrup (s193982)
-  url: https://darn.es
 
 social_links: # Appears in sidebar. Set the urls then uncomment and comment out as desired
   Twitter: https://twitter.com/DavidDarnes

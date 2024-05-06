@@ -137,7 +137,7 @@ for i, crime in enumerate(hour_factors.columns):
     row_index = i // num_cols
     col_index = i % num_cols
     
-    axes[row_index, col_index].bar(hour_factors.index, hour_factors[crime], color='skyblue')
+    axes[row_index, col_index].bar(hour_factors.index, hour_factors[crime], color='salmon')
     axes[row_index, 0].set_ylabel('Occurrences')
     axes[row_index, col_index].set_title(f'{crime}', fontsize=12)  
 

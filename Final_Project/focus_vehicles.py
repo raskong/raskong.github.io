@@ -4,10 +4,10 @@ from Exploratory import *
 
 # %%#%%Car type counts:
 df.loc[df['VEHICLE TYPE CODE 1'] == 'sport utility / station wagon', 'VEHICLE TYPE CODE 1'] = 'station wagon/sport utility vehicle'
-focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(15).index
+focus_vehicles = df['VEHICLE TYPE CODE 1'].value_counts().head(16).index
 focus_vehicles = focus_vehicles[focus_vehicles != '4 dr sedan']
 df = df[df['VEHICLE TYPE CODE 1'].isin(focus_vehicles)]
-counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(15)
+counts_vehicle = df['VEHICLE TYPE CODE 1'].value_counts().head(16)
 
 #%%Cartype counts
 plt.figure(figsize=(10, 6))
@@ -161,7 +161,7 @@ for i, crash in enumerate(weekday_factors.columns):
     row_index = i // num_cols
     col_index = i % num_cols
     
-    axes[row_index, col_index].bar(week_order, weekday_factors[crash], color='skyblue')
+    axes[row_index, col_index].bar(week_order, weekday_factors[crash], color='salmon')
     axes[row_index, 0].set_ylabel('Occurrences')
     axes[row_index, col_index].set_title(f'{crash}', fontsize=12)
     axes[row_index, col_index].tick_params(axis='x', rotation=90)
@@ -171,3 +171,5 @@ plt.tight_layout(rect=[0, 0, 1, 0.96])
 
 plt.savefig('/Users/rasmuskongsted/Documents/Danmarks Tekniske Universitet/DTU/10. semester/Dataanalyse/Gitpage/raskong.github.io/Final_Project/figures/vehicles per weekday.png', bbox_inches='tight')
 plt.show()
+
+# %%
