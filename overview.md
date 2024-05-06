@@ -41,7 +41,7 @@ Below on Figure 2, you can find a Bokeh plot showing the 14 most frequent contri
 It becomes evident, that especially driver *'inattention/distraction'* pays a great tribute to the total number of crashes.
 Also *'failure to yield right of way'* has an influence.
 
-The Bokeh plot pn Figure 3 shows the 14 most frequent vehicle types involved (for Vehicle 1).
+The Bokeh plot on Figure 3 shows the 14 most frequent vehicle types involved (for Vehicle 1).
 Especially *'station wagon/sport utility vehicle (SUV)'* are present alongside *'sedan'*. This is to no surprise, as these cars are also the most common cars.
 One thing that becomes evident is the huge shift around 2016 for some of the vehicle types. *'passenger vehicle'* drops significantly to a value of 0 from 2017 and *'sedan'* goes from 0 to a rather high value in 2016. 
 The reason for this must be that they have changed the procedures for data collection in 2016 and thereby the categories, they are using.
