@@ -16,8 +16,7 @@ excerpt: "Where is this written????"
   }
 </style>
 
-
-
+On Figure 1 below an investigation has ben made on whether the type of car involved in the crash has any importance. The three most often appearing types of car (station wagon, sedan and passenger vehicle) must be assumed to also be the type of transportation with the highest density in the city. At least it is of no surprise that these appear more often than taxies as an example. 
 <figure>
   <img src="/cartype_counts.png" width="100%" height="auto">
   <figcaption><i style="font-size: smaller;">Figure 1: Count of how often different cartypes are involved in crashes</i></figcaption>
