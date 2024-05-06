@@ -21,15 +21,19 @@ This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. 
 It contains over 2 million data points with 29 different attributes covering date, time and location (both coordinates, streetname and cross street name).
 Also number of people (drivers, pedestrians, cyclists) injuerd or killed as well as the contributing factor for the crash and the vehicle types involved are included.
 
-To make it easy for you to navigate through the data we have divided the analysis in three sub groups. 
-Firstly a more general data overview as well as two focus areas: the contributing factors for the crashes and the vehicle types involved in the crash.
+To make it easy for you to navigate through the data we have divided the analysis into four sub groups:
+1. A more general data overview.
+2. The contributing factors for the crashes.
+3. The vehicle types involved.
+4. Location based analysis
 
 Different types of plots will make the story eaiser for you to navigate in the content.
 
 Please see the panes in the top to navigate through the different sections.
 
+
 #### Motivation and goal
-The video below will give you a brief insight into the goals for this analysis and creation of webpage.
+The video below will give you a brief insight into the goals for this analysis and the creation of the webpage.
 <figure>
   <iframe width="800" height="515" src="https://www.youtube.com/embed/L3aFnudaWrg" frameborder="0" allowfullscreen></iframe>
 </figure>
