@@ -18,16 +18,16 @@ excerpt: "Where is this written????"
 
 On this page we will analyze the contributing factors for vehicle number 1 for the crashes in NYC. 
 
-On the figure the 21 most frequent factors is shown on a bar plot. Unfortunately a very big part (around 1/3) of the observations has been labeled as *'unspecified'* which is unfortunate. 
+On Figure 1 the 21 most frequent factors is shown on a bar plot. Unfortunately a very big part (around 1/3) of the observations has been labeled as *'unspecified'* which is unfortunate. 
 
 
 <figure>
   <img src="/factor_counts.png" alt="Description of Image" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 2: Bokeh plot for focus factors for vehicle 1 per year from 2013 to 2023.</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 1: Number of observations for the most frequent contributing factors.</i></figcaption>
 </figure>
 
 
-Below the 20 most frequent contributing factors has been plotted per hours of the day as bar plots with. The *'unspecified'* label has been removed, as we did not find it interesting.
+On Fiugre 2 the 20 most frequent contributing factors has been plotted per hours of the day as bar plots with. The *'unspecified'* label has been removed, as we did not find it interesting.
 
 Some things can be observed on the plots. First of all, most of the categories follows the same pattern. The most crashes happen in the afternoon around hour 16 or 17, which could be due to rush hour when people are returning from work. Also a significant drop can be observed in the night, which is to no surprise either.
 
@@ -40,16 +40,21 @@ Summing up it seems that nothing seems to any surprise in the data as all of the
 1. No patterns are deemed very interesting or rise any questions for further exploration.
 2. It proves that the data is somewhat reliable, as it follows expected patterns.
 
-<img src="/Final_Project/Figures/crashfactors per hour.png" alt="Description of Image" style="width:100%; height:auto;">
 
+<figure>
+  <img src="/Final_Project/Figures/crashfactors per hour.png" alt="Description of Image" style="width:100%; height:auto;">
+  <figcaption><i style="font-size: smaller;">Figure 2: Contributing factors plottet for each hour of the day.</i></figcaption>
+</figure>
 
 
 
 # Alcohol involment
 Due to the different pattern of *'alcohol involvement'* we chose to dive deeper into it by using a calendar plot.
 What becomes evident is, that there is a clear pattern of people drinking and driving in the weekends. What is also interesting is that the 1st of january is significantly higher.
-<img src="/Final_Project/Figures/Alc_calender_plot.png" width="100%" height="auto">
-
+<figure>
+  <img src="/Final_Project/Figures/Alc_calender_plot.png" width="100%" height="auto">
+  <figcaption><i style="font-size: smaller;">Figure 3: Crashes involving alcohol over the years.</i></figcaption>
+</figure>
 
 
 
@@ -57,7 +62,10 @@ What becomes evident is, that there is a clear pattern of people drinking and dr
 # Slippery roads
 In the winter the roads are wet and icy bla bla  
 <img src="/Final_Project/Figures/Ice_calender_plot.png" width="100%" height="auto">
-
+<figure>
+  <img src="/Final_Project/Figures/Alc_calender_plot.png" width="100%" height="auto">
+  <figcaption><i style="font-size: smaller;">Figure 4: Crashes involving slippery roads over the years.</i></figcaption>
+</figure>
 
 
 ## insert barplot 
