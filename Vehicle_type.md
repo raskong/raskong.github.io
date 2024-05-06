@@ -17,10 +17,17 @@ excerpt: "Where is this written????"
 </style>
 
 
-<img src="/cartype_counts.png" width="100%" height="auto">
 
+<figure>
+  <img src="/cartype_counts.png" width="100%" height="auto">
+  <figcaption><i style="font-size: smaller;">Figure 1: Count of how often different cartypes are involved in crashes</i></figcaption>
+</figure>
 
 
 What is interesting on the plot below is that some vehicles have few crashes in the weekends. Looking closer it seems, that what these vehicles have in common, is that they are all bigger sized vehicles such as *'box truck'*, *'bus'*, *'pick-up truck'*, *'tractor truck diesel'* and *'van'*. The reason for this could be that these cars are mainly related to when people are working, therefor higher in the weekdays.
 
-<img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
+
+<figure>
+  <img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
+  <figcaption><i style="font-size: smaller;">Figure 2: The 15 most frequently car types involeved in crashes and the observations according to weekday</i></figcaption>
+</figure>
