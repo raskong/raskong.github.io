@@ -56,5 +56,3 @@ What becomes evident og Figure 3 is, that there is a clear pattern of people dri
   <figcaption><i style="font-size: smaller;">Figure 3: Crashes involving alcohol over the years.</i></figcaption>
 </figure>
 
-
-## insert barplot 
