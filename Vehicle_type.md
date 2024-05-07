@@ -56,5 +56,5 @@ To clarify the previous statement, here's another Scatterplot with variable size
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured_motor.png" alt="" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 4:Scatterplot with variable size - paired count of Vehicle type vs persons injured</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 5:Scatterplot with variable size - paired count of Vehicle type vs motorist persons injured</i></figcaption>
 </figure>
