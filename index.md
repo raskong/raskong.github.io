@@ -17,7 +17,7 @@ excerpt: "Where is this written????"
 </style>
 
 ### Introduction
-This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. It is based on the dataset “Motor vehicle collisions - crashes”. (Link til kilde måske?)
+This page concerns car crashes in New York City (NYC) from mid 2012 until 2024. It is based on the dataset “Motor vehicle collisions - crashes” <a href="https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/about_data">[1]</a>.
 It contains over 2 million data points with 29 different attributes covering date, time and location (both coordinates, streetname and cross street name).
 Also number of people (drivers, pedestrians, cyclists) injuerd or killed as well as the contributing factor for the crash and the vehicle types involved are included.
 
