@@ -29,7 +29,7 @@ To make it easy for you to navigate through the data we have divided the analysi
 
 Different types of plots will make the story eaiser for you to navigate in the content.
 
-Please see the panes in the top to navigate through the different sections.
+Please see the panes in the top to navigate through the different sections. 
 
 
 The explainer for this webpage can be found [here](https://github.com/raskong/raskong.github.io/blob/main/Final_Project/Explainer.ipynb){:target="_blank"}.
