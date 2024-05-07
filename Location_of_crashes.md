@@ -26,7 +26,7 @@ On Figure 1, you can see a count of the number of car accidents between 2013 and
 
  
 A relatively even distribution is seen here, with the exception of postal code 11236 (Canarsie|Brooklyn) and an increased concentration around Manhattan and the transition to Queens. 
-The reason why Canarsie is more exposed to car crashes could be that this covers the Broadway Junction where thw two big roads; Broadway and Atlantic Avenue meets, while Manhatan is the most densely populated borough of NYC (https://en.wikipedia.org/wiki/Manhattan, accessed 30-04-2024) which also could cause more frequent crashes.
+The reason why Canarsie is more exposed to car crashes could be that this covers the Broadway Junction where thw two big roads; Broadway and Atlantic Avenue meets, while Manhatan is the most densely populated borough of NYC <a href="https://en.wikipedia.org/wiki/Manhattan">[1]</a> which also could cause more frequent crashes.
 
 
 ### Specific roads
