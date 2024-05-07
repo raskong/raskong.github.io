@@ -48,14 +48,9 @@ To gain a clearer understanding of whether certain types of vehicles are more de
   <figcaption><i style="font-size: smaller;">Figure 4:Scatterplot with variable size - paired count of Vehicle type vs persons injured</i></figcaption>
 </figure>
 
-
-
-
-
-To clarify the previous statement, here's another Scatterplot with variable size. It illustrates the relationship between vehicle type and the number of injured motorists. This plot reveals a small trend: smaller vehicles tend to have fewer injuries on average. This pattern points to, if you're involved in a crash, you're more likely to get injuries in a smaller vehicle. 
+To clarify further, here's another Scatterplot featuring variable size. It showcases the relation between vehicle type and the number of injured motorists. This plot reveals a slight trend, with a marginal percentage difference: If you're involved in a crash, you're just slightly more likely to sustain injuries in a smaller vehicle.
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X__injured_motor.png" alt="" style="width:100%; height:auto;">
   <figcaption><i style="font-size: smaller;">Figure 5:Scatterplot with variable size - paired count of Vehicle type vs motorist persons injured</i></figcaption>
 </figure>
-
