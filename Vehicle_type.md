@@ -33,7 +33,7 @@ Looking at all the vehicle types individually and then investigating which day o
 
 
 
-Below (Figure 3V) we can see a how the count of crashes is distributied when the Contributing factor is paired with the veihcle type. When looking at the data the plot presents, we can see a tendency     
+Below (Figure 3V) we can see a how the count of crashes is distributied when the Contributing factor is paired with the veihcle type. When looking at the data the plot presents, we can see a tendency that is the vehicle types that also is the most      
 
 
 <figure>
@@ -44,7 +44,8 @@ Below (Figure 3V) we can see a how the count of crashes is distributied when the
 
 
 
+
 <figure>
-  <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured.png" alt="" style="width:100%; height:auto;">
+  <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured_norm.png" alt="" style="width:100%; height:auto;">
   <figcaption><i style="font-size: smaller;">Figure 4V: paired count of Vehicle type vs persons injured</i></figcaption>
 </figure>
