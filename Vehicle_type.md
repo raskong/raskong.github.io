@@ -33,7 +33,7 @@ Looking at all the vehicle types individually and then investigating which day o
 
 
 
-Below (Figure 3V) we can see a how the count of crashes is distributied when the Contributing factor is paired with the veihcle type. When looking at the data the plot presents, we once agian we see some odd patterns around the vehicle type "passenger vehicle" where we have a counts of zero in the contributing factors "alcohol involment", "unsafe speed" and more. it was Earlier pointed out that the posibility of "passenger vecihle" had been fully or partly shifted out with "sedan". This could still be true, but then it looks like there also have been a change in the process of noting down the contributing factors.           
+Below (Figure 3V) we can see a how the count of crashes is distributied when the Contributing factor is paired with the veihcle type. When looking at the data the plot presents, we once agian we see some odd patterns around the vehicle type "passenger vehicle" where we have a counts of zero in the contributing factors "alcohol involment", "unsafe speed" and more. it was Earlier pointed out that the posibility of "passenger vecihle" had been fully or partly exchanged with "sedan". This could still be true, but then it looks like there also have been a change in the process of noting down the contributing factors.           
 
 
 <figure>
@@ -42,7 +42,7 @@ Below (Figure 3V) we can see a how the count of crashes is distributied when the
 </figure>
 
 
-
+To get a better picture of if there is a veihcle type that is more destrucktive in in a crash, we have below plotted a count matrix of number of people injured vs veh normalized    
 
 
 <figure>
