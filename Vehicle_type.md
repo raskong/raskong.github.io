@@ -41,7 +41,7 @@ Below (Figure 3V) we can see a how the count of crashes is distributied when the
   <figcaption><i style="font-size: smaller;">Figure 3V: paired count of Vehicle type vs contributing factor </i></figcaption>
 </figure>
 
-To gain a clearer understanding of whether certain types of vehicles are more destructive than others, we've created a scatterplot below. This plot compares the number of people injured to the vehicle type, normalized with respect to the total count of vehicles. 
+To gain a clearer understanding of whether certain types of vehicles are more destructive than others, we've created a scatterplot below. This plot compares the number of people injured to the vehicle type, normalized with respect to the total count of vehicles. When we look at the plot we don't se a great difference in the veicle type as a attribute to the of destrutive it is. There is mabye a small tendency that bigger.    
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured_norm.png" alt="" style="width:100%; height:auto;">
