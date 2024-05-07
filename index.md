@@ -32,7 +32,7 @@ Different types of plots will make the story eaiser for you to navigate in the c
 Please see the panes in the top to navigate through the different sections.
 
 
-The explainer for this webpage can be found [here](https://github.com/raskong/raskong.github.io/blob/main/Final_Project/Explainer.ipynb).
+The explainer for this webpage can be found [here](https://github.com/raskong/raskong.github.io/blob/main/Final_Project/Explainer.ipynb){:target="_blank"}.
 
 
 #### Motivation and goal
