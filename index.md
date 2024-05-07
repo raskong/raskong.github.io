@@ -32,6 +32,10 @@ Different types of plots will make the story eaiser for you to navigate in the c
 Please see the panes in the top to navigate through the different sections.
 
 
+To find the explainer for this page please download the following notebook file:
+[Download File](Final_Project/Explainer.ipynb)
+
+
 #### Motivation and goal
 The video below will give you a brief insight into the goals for this analysis and the creation of the webpage.
 <figure>
