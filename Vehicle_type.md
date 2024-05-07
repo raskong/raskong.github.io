@@ -19,7 +19,7 @@ excerpt: "Where is this written????"
 On Figure 1 below an investigation has ben made on whether the type of car involved in the crash has any importance. The three most often appearing types of car (station wagon, sedan and passenger vehicle) must be assumed to also be the type of transportation with the highest density in the city. At least it is of no surprise that these appear more often than taxies as an example. 
 <figure>
   <img src="/cartype_counts.png" width="100%" height="auto">
-  <figcaption><i style="font-size: smaller;">Figure 1V: Count of how often different cartypes are involved in crashes</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 1: Count of how often different cartypes are involved in crashes</i></figcaption>
 </figure>
 
 
@@ -28,7 +28,7 @@ Looking at all the vehicle types individually and then investigating which day o
 
 <figure>
   <img src="/Final_Project/Figures/vehicles per weekday.png" alt="Description of Image" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 2V: The 15 most frequent car types involeved in crashes and the observations according to weekday</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 2: The 15 most frequent car types involeved in crashes and the observations according to weekday</i></figcaption>
 </figure>
 
 
@@ -38,12 +38,12 @@ Below (Figure 3V) we can see a how the count of crashes is distributied when the
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X_contri_factor.png" alt="" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 3V: paired count of Vehicle type vs contributing factor </i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 3: Scatterplot with variable size - paired count of Vehicle type vs contributing factor </i></figcaption>
 </figure>
 
-To gain a clearer understanding of whether certain types of vehicles are more destructive than others, we've created a scatterplot below. This plot compares the number of people injured to the vehicle type, normalized with respect to the total count of vehicles. When we look at the plot we don't se a great difference in the veicle type as a attribute to the of destrutive it is. There is mabye a small tendency that bigger.    
+To gain a clearer understanding of whether certain types of vehicles are more destructive than others, we've created a scatterplot below. This plot compares the number of people injured to the vehicle type, normalized with respect to the total count of vehicles. When we look at the plot we don't se a great difference in the veicle type as a attribute to the of destrutive it is. There is mabye a small tendency that bigger cars are a bit safer.    
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured_norm.png" alt="" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 4V: paired count of Vehicle type vs persons injured</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 4:Scatterplot with variable size - paired count of Vehicle type vs persons injured</i></figcaption>
 </figure>
