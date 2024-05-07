@@ -16,7 +16,7 @@ excerpt: "Where is this written????"
   }
 </style>
 
-On Figure 1 below an investigation has ben made on whether the type of car involved in the crash has any importance. The three most often appearing types of car (station wagon, sedan and passenger vehicle) must be assumed to also be the type of transportation with the highest density in the city. At least it is of no surprise that these appear more often than taxies as an example. 
+On Figure 1 an investigation has ben made on whether the type of car involved in the crash has any importance. The three most often appearing types of car (station wagon, sedan and passenger vehicle) must be assumed to also be the type of transportation with the highest density in the city. Therefore, it is of no surprise that these appear more often than e.g. taxies and busses. 
 <figure>
   <img src="/cartype_counts.png" width="100%" height="auto">
   <figcaption><i style="font-size: smaller;">Figure 1: Count of how often different cartypes are involved in crashes</i></figcaption>
@@ -33,7 +33,7 @@ Looking at all the vehicle types individually and then investigating which day o
 
 
 
-Below (Figure 3V) we can see a how the count of crashes is distributied when the Contributing factor is paired with the veihcle type. When looking at the data the plot presents, we once agian we see some odd patterns around the vehicle type "passenger vehicle" where we have a counts of zero in the contributing factors "alcohol involment", "unsafe speed" and more. it was Earlier pointed out that the posibility of "passenger vecihle" had been fully or partly exchanged with "sedan". This could still be true, but then it looks like there also have been a change in the process of noting down the contributing factors.           
+Below (Figure 3) you can see how the count of crashes is distributied when the contributing factor is paired with the veihcle type. When looking at the data the plot presents, we once agian see some odd patterns around the vehicle type "passenger vehicle". This vehicle type have a counts of zero in the contributing factors "alcohol involment", "unsafe speed" and more. It was earlier pointed out that there was a posibility of, that "passenger vecihle" had been fully or partly exchanged with "sedan" in 2016. This could still be true, but then it looks like there have also been a change in the process of noting down the contributing factors.           
 
 
 <figure>
@@ -41,7 +41,7 @@ Below (Figure 3V) we can see a how the count of crashes is distributied when the
   <figcaption><i style="font-size: smaller;">Figure 3: Scatterplot with variable size - paired count of Vehicle type vs contributing factor </i></figcaption>
 </figure>
 
-To gain a clearer understanding of whether certain types of vehicles are more destructive than others, we've created a scatterplot below. This plot compares the number of people injured to the vehicle type, normalized with respect to the total count of vehicles. When we look at the plot we don't se a great difference in the veicle type as a attribute to the of destrutive it is. There is mabye a small tendency that bigger cars are a bit safer.    
+To gain a clearer understanding of whether certain types of vehicles are more destructive than others, we've created a scatterplot below on Figure 4. This plot compares the number of people injured to the vehicle type, normalized with respect to the total count of vehicles. When we look at the plot we don't se a great difference in the veicle type as a attribute to the of destrutive it is. There is mabye a small tendency that bigger cars are a bit safer.    
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured_norm.png" alt="" style="width:100%; height:auto;">
