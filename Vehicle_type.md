@@ -38,6 +38,13 @@ Below (Figure 3V) we can see a how the count of crashes is distributied when the
 
 <figure>
   <img src="/Final_Project\Figures\Vehicle_type_X_contri_factor.png" alt="" style="width:100%; height:auto;">
-  <figcaption><i style="font-size: smaller;">Figure 3V: The 15 most frequent car types involeved in crashes and the observations according to weekday</i></figcaption>
+  <figcaption><i style="font-size: smaller;">Figure 3V: paired count of Vehicle type vs contributing factor </i></figcaption>
 </figure>
 
+
+
+
+<figure>
+  <img src="/Final_Project\Figures\Vehicle_type_X_Persons_injured.png" alt="" style="width:100%; height:auto;">
+  <figcaption><i style="font-size: smaller;">Figure 4V: paired count of Vehicle type vs persons injured</i></figcaption>
+</figure>
